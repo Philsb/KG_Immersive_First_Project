@@ -1,0 +1,19 @@
+{
+  "name": "firstproj_landingpage",
+  "version": "1.0.0",
+  "description": "ASDSD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Philsb/KG_Immersive_First_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Philsb/KG_Immersive_First_Project/issues"
+  },
+  "homepage": "https://github.com/Philsb/KG_Immersive_First_Project#readme"
+}
