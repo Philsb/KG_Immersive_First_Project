@@ -1,0 +1,26 @@
+.btn-container {
+    display:none;
+    &__button{
+        @include button-mixin;
+        display:none;
+        border-radius: 0.5rem; 
+        min-width: 15%;
+        margin: 1rem;
+        border: 0rem;
+        
+        @media (min-width: 768px) {
+            display:block;
+        }
+
+        &:hover{
+            background-color: $background;
+        }
+    }
+    @media (min-width: 768px){
+        display:flex;
+        justify-content: center;
+    }
+}
+
+
+

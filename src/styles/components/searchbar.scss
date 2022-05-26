@@ -1,0 +1,22 @@
+.searchbar {
+    display: flex;
+    background-color:$background;
+    border-radius: 1rem;
+    &__icon{
+        border: 0px;
+        background-color:inherit;
+        border-radius: inherit;
+        width: 4rem;
+    }   
+
+    &__input {
+        width: calc(100% - 4rem);
+        background-color:inherit;
+        border-radius: inherit;
+        height: 2.8rem;
+        outline: none;
+        border: none;
+        padding: 0 1.5rem 0 1.5rem;
+        font-size: 1rem;
+    }
+}

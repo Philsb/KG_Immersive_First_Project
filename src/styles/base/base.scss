@@ -1,0 +1,52 @@
+@import "../variables/fonts.scss";
+@import "../variables/colors.scss";
+html {
+    min-height: 100%;  
+}
+
+body {
+    margin: 0px;
+    font-family: $main-font;
+    min-height: 100vh;  
+    background-color: $background;
+    background-image:
+    url(https://grainy-gradients.vercel.app/noise.svg);
+}
+header{
+    background-color: aquamarine;
+    min-height: 10rem;
+}
+nav{
+    margin: 0px;
+    min-height: 3rem;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+main {
+    padding: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: $content;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding-left: 15%;
+    color:white;
+    margin-top: 5rem;
+    min-height: 25rem;
+    background-image: url("/src/Assets/Images/mikael-gustafsson-wallpaper-mikael-gustafsson.jpg");
+}
+
+ul{
+    margin:0%;
+}
+h1 {
+    margin: 0px;
+}
+

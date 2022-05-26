@@ -1,0 +1,30 @@
+.navbar {
+    display:flex;
+    background-color: $primary;
+    position:fixed;
+    top:0;
+    width:100%;
+    &__div1{
+        flex-grow: 1;
+        flex-basis: 50%;
+        margin-left: 1rem;
+    }
+    &__div2{
+        flex-grow: 1;
+        flex-basis: 50%;
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+    
+    }
+} 
+
+.anchor_list {
+    &__anchor {
+        color: $font-light;
+        margin: 1rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
